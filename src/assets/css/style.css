@@ -21,17 +21,23 @@ body {
   border-radius: 5px;
 }
 
+.filtro-container,
+.filtroNome-container {
+  margin-bottom: 20px;
+}
+
 /* Adicione estilos para a classe 'filtrar' */
-.filtrar {
+.filtrar,
+.filtrarNome {
   padding: 10px;
-  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
 }
 
-/* Adicione estilos para a classe 'btn-filtrar' */
-.btn-filtrar {
+/* Adicione estilos para a classe 'btn-filtrar' e 'btn-filtrar-nome' */
+.btn-filtrar,
+.btn-filtrar-nome {
   background-color: #742de7;
   color: white;
   border: none;
@@ -46,8 +52,7 @@ body {
 }
 
 /* Estilize o botão quando o cursor estiver sobre ele */
-.btn-filtrar:hover {
+.btn-filtrar:hover,
+.btn-filtrar-nome:hover {
   background-color: #4303aa;
 }
-
-

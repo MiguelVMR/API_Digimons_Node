@@ -1,6 +1,6 @@
 export default function filtrarPorNome() {
-    const inputFiltrar = document.querySelector('.filtrar');
-    const btnFiltrar = document.querySelector('.btn-filtrar');
+    const inputFiltrar = document.querySelector('.filtrarNome');
+    const btnFiltrar = document.querySelector('.btn-filtrar-nome');
 
     btnFiltrar.addEventListener('click', () => {
     const nomeFiltrar = inputFiltrar.value.toLowerCase(); // Obtém o valor do input e converte para minúsculas

@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>API digimons</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>API digimons</title>
-</head>
+  <body>
+    <div class="container">
+      <h1>Digimon API</h1>
+      <div class="filtro-container">
+        <input class="filtrar" type="text" placeholder="Digite o nivel" />
+        <input class="btn-filtrar" type="button" value="Filtrar" />
+      </div>
+      <div class="filtroNome-container">
+        <input class="filtrarNome" type="text" placeholder="Digite o nome" />
+        <input class="btn-filtrar-nome" type="button" value="Filtrar" />
+      </div>
+      <div id="digimon-list"></div>
+    </div>
 
-<body>
-  <div class="container">
-    <h1>Digimon API</h1>
-    <input class="filtrar" type="text" placeholder="Digite o nivel">
-    <input class="btn-filtrar"type="button" value="Filtrar">
-    <div id="digimon-list"></div>
-</div>
-
-  <script src="./assets/js/bundle.js"></script>
-</body>
-
+    <script src="./assets/js/bundle.js"></script>
+  </body>
 </html>
