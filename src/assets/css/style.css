@@ -26,7 +26,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Adicione estilos para a classe 'filtrar' */
+/* Adicionando estilos para a classe 'filtrar' */
 .filtrar,
 .filtrarNome {
   padding: 10px;
@@ -35,7 +35,7 @@ body {
   font-size: 16px;
 }
 
-/* Adicione estilos para a classe 'btn-filtrar' e 'btn-filtrar-nome' */
+/* Adicionando estilos para a classe 'btn-filtrar' e 'btn-filtrar-nome' */
 .btn-filtrar,
 .btn-filtrar-nome {
   background-color: #742de7;
@@ -51,7 +51,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-/* Estilize o botão quando o cursor estiver sobre ele */
+/* Estilizando o botão quando o cursor estiver sobre ele */
 .btn-filtrar:hover,
 .btn-filtrar-nome:hover {
   background-color: #4303aa;

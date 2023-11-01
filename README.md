@@ -14,9 +14,12 @@ Este projeto é uma API que consome informações sobre Digimons de uma fonte ex
    - A aplicação faz uma requisição à API de Digimons e exibe os Digimons na página.
    - Cada Digimon é exibido como um cartão contendo o nome, o nível e uma imagem em ordem alfabética 
 
-
-2. **Filtrar Digimons**
+2. **Filtrar Digimons por nível**
    - Os Digimons podem ser filtrados por nivel. Digite o nível desejado  (por exemplo, "Rookie") no campo de filtro.
+   - Clique no botão `Filtrar`  para ver apenas os Digimons com o nível especificado. 
+  
+3. **Filtrar Digimons por nome**
+   - Os Digimons podem ser filtrados por nome. Digite o nome desejado  (por exemplo, "Agumon") no campo de filtro.
    - Clique no botão `Filtrar`  para ver apenas os Digimons com o nível especificado. 
 
 ## Configuração

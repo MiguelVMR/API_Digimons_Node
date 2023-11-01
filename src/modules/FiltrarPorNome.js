@@ -5,9 +5,7 @@ export default function filtrarPorNome() {
     btnFiltrar.addEventListener('click', () => {
     const nomeFiltrar = inputFiltrar.value.toLowerCase(); // Obtém o valor do input e converte para minúsculas
     
-    const digimonCards = document.querySelectorAll('.digimon-card'); // Obtém todos os cartões de Digimon
-        
-        
+    const digimonCards = document.querySelectorAll('.digimon-card'); // Obtém todos os cartões de Digimon               
         
         digimonCards.forEach(card => {
             const nomeDigimon = card.querySelector('h2').textContent.toLowerCase();
