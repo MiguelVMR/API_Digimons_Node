@@ -46,14 +46,6 @@ Abra o arquivo `index.html` e inicie a extensão Live Server para visualizar a a
 
 
 
-
-## Estrutura do Projeto
-
-- **`index.html`:** Contém a estrutura HTML da página.
-- **`style.css`:** Arquivo de estilos para a aplicação.
-- **`Digimon.js`:** Código JavaScript que faz requisições à API e manipula a interface do usuário.
-
-
 <div style="text-align: center;">
   <img src="https://logospng.org/wp-content/uploads/node-js.png" 
   alt="Logo do projeto" style="width: 200px; margin: 0 auto;border-radius:10px">
